@@ -503,6 +503,7 @@ header {
 }
 .cleancode_block .tab-pane.active {
 	height:auto;
+	overflow: hidden;
 	transform:translateY(0);
 	-o-transform:translateY(0);
 	-ms-transform:translateY(0);
