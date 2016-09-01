@@ -471,9 +471,9 @@ header {
 }
 
 .cleancode_block .tab-content {
-	overflow:hidden;
-	padding: 0;
+	overflow: hidden;
 	margin:0 0 80px;
+	width: 100%;
 }
 .cleancode_block p.title {
 	margin:0 0 17px;
@@ -536,8 +536,9 @@ header {
 }
 
 .cleancode_block .nav-tabs {
-	margin:0 -15px;
+	margin:0;
 	border:0;
+	width: 100%;
 	overflow: scroll;
 }
 .cleancode_block .nav-tabs li {
