@@ -665,7 +665,7 @@ header {
 	transform: translateY(-100%);
 }
 
-.purpose_block #ytplayer1 {margin-top:-116px;}
+/*.purpose_block #ytplayer1 {margin-top:-116px;}*/
 
 
 
@@ -1801,7 +1801,7 @@ input[type="color"]:focus {
 
 
 	.purpose_block {padding-top:35px;}
-	.purpose_block #ytplayer1 {margin-top:-50px;}
+	/*.purpose_block #ytplayer1 {margin-top:-50px;}*/
 	.purpose_block p {font-size:12px; line-height:20px;}
 
 
@@ -1916,7 +1916,7 @@ input[type="color"]:focus {
 
 	.purpose_block {padding-top:35px;}
 	.ipad_img_in {width:350px; margin:0 auto;}
-	.purpose_block #ytplayer {margin-top:40px;}
+	/*.purpose_block #ytplayer {margin-top:40px;}*/
 	.purpose_block p {font-size:12px; line-height:20px;}
 
 
@@ -2127,6 +2127,7 @@ input[type="color"]:focus {
 #myTab {
 	background: #BBC0BE;
 	border-radius: 5px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
