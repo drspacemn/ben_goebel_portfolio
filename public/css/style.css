@@ -30,7 +30,7 @@ body {
 #page {overflow-x:hidden; position:relative; z-index:5;}
 
 .preloader_hide {opacity:0;}
-#preloader {position:fixed; left:50%; top:50%; width:32px; height:32px; margin:-16px 0 0 -16px; display:block;}
+#preloader {position:fixed; left:50%; top:50%; width:25px; height: 25px; margin:-16px 0 0 -16px; display:block; border-radius: 10px;}
 
 section {background-color:#fff;}
 
@@ -277,7 +277,7 @@ header {
 	right:0;
 	height:80px;
 	width:100%;
-	background-color: #43BBB9;
+	background-color: #11374B;
 	box-shadow:0 2px 3px rgba(0,0,0,0.1);
 }
 
@@ -2079,7 +2079,7 @@ input[type="color"]:focus {
 	height: 100%;
 	text-align: center;
 	margin: 0;
-	margin-top: -45px;
+	margin-top: 30px;
 }
 
 .skillz h4 {
@@ -2166,6 +2166,10 @@ input[type="color"]:focus {
 	justify-content: center;
 	align-items: center;
 }
+#myCircle {
+	height: 125px;
+	width: 125px;
+}
 
 .circle img {
 	max-width: 40px;
@@ -2231,18 +2235,31 @@ h2 b {
 }
 
 .rez {
-	width: 10%;
-	height: 10%;
-	background: #FBC96C;
+	background: #4A6D7C;
 	border-radius: 10px;
 	margin: 0 auto;
-	margin-top: -20px;
+	width: 10vw;
 }
 
 .rez a {
 	color: white;
-	font-size: 14px;
+	font-size: 16px;
+
 }
 .rez a:hover {
+	font-size: 18px;
+}
+#nomad {
+	color: blue;
+}
+#nomad:hover {
 	font-size: 16px;
+}
+#myFace {
+	max-width: 100px;
+}
+
+#clique {
+	max-width: 320px;
+	max-height: 153px;
 }

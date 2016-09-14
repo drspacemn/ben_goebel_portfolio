@@ -4,11 +4,12 @@
 
 	<meta charset="utf-8">
 	<title>Ben Goebel Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/Ben_Face.png">
 
 	<!-- CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -72,7 +73,10 @@
 <body>
 
 <!-- PRELOADER -->
-<img id="preloader" src="images/preloader.gif" alt="" />
+<div class="pre">
+	<img id="preloader" src="images/preloader.gif" alt="" />
+</div>
+
 <!-- //PRELOADER -->
 <div class="preloader_hide">
 
@@ -97,24 +101,24 @@
 					</div><!-- //LOGO -->
 
 					<!-- SEARCH FORM -->
-					<div id="search-form" class="pull-right">
+					<!-- <div id="search-form" class="pull-right">
 						<form method="get" action="#">
 							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
 						</form>
-					</div><!-- SEARCH FORM -->
+					</div> -->
 
 					<!-- MENU -->
 					<div class="pull-right">
 						<nav class="navmenu center">
 							<ul>
-								<li class="first active scroll_btn"><a href="#home" >Home</a></li>
-								<li class="scroll_btn"><a href="#about" >About Me</a></li>
-								<li class="scroll_btn"><a href="#skills" >Skills</a></li>
-								<li class="scroll_btn"><a href="#video" >Video</a></li>
-								<li class="scroll_btn"><a href="#projects" >Projects</a></li>
+								<li class="first active scroll_btn"><a href="#home" >Home</a></li>|
+								<li class="scroll_btn"><a href="#about" >About Me</a></li>|
+								<li class="scroll_btn"><a href="#skills" >Skills</a></li>|
+								<li class="scroll_btn"><a href="#video" >Video</a></li>|
+								<li class="scroll_btn"><a href="#projects" >Projects</a></li>|
 								<!-- <li class="scroll_btn"><a href="#news" >Video</a></li> -->
-								<li class="scroll_btn last"><a href="#contacts" >Contact Me</a></li>
-								<li class="sub-menu">
+								<li class="scroll_btn last"><a href="#team" >Contact Me</a></li>
+								<!-- <li class="sub-menu"> -->
 									<!-- <a href="javascript:void(0);" >Pages</a>
 									<ul>
 										<li><a href="blog.html" >Blog</a></li>
@@ -174,39 +178,39 @@
 			<!-- SERVICES -->
 			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
 
-				<div class="skillz">
-					<div class="container">
-						<h2><b>About</b> Me</h2>
-						<div class="rez">
-							<a href="Ben_Goebel_Resume.pdf">Resume</a>
-						</div>
-					</div><!-- //CONTAINER -->
-				</div>
+
 
 				<!-- CONTAINER -->
 				<div class="container">
 
 					<!-- ROW -->
 					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<div class="skillz">
+								<div class="container">
+									<h2><b>About</b> Me</h2>
+									<h5>“And I urge you to please notice when you are happy, and exclaim or murmur or think at some point, 'If this isn't nice, I don't know what is." <br> - Kurt Vonnegut</h5>
+									<hr>
+									<div class="rez">
+										<a href="images/Ben_Goebel_Resume.pdf">Resume</a>
+									</div>
+								</div><!-- //CONTAINER -->
+							</div>
+						</div>
 
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-ss-12 margbot30">
 							<a class="services_item" href="javascript:void(0);" >
 								<p><b>Education</b></p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+								<span><strong>Current:</strong> I have always been passionate about technology and am currently attending Galvanize Full Stack Web Development Immersive. <br><br><strong>College:</strong> I graduated Colorado State University in December, 2012 with a degree in Marketing and Finance and a certificate in Entrepreneurship. <br><br><strong>Abroad:</strong> While in college I attended Semester at Sea and attended classes while circumnavigating the world and seeing 12 countries.</span>
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-ss-12 margbot30">
 							<a class="services_item" href="javascript:void(0);" >
 								<p><b>Passions</b></p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+								<span><strong>Travel:</strong> I have always believed flipping your perspective and experiencing the world through new eyes is the best way to live. While backpacking New Zealand, Australia, Indonesia, Thailand, Cambodia, India, and Japan I wrote a blog called <a id="nomad" href="http://ahappynomad.tumblr.com/">A Happy Nomad</a>.<br><br><strong>Teaching:</strong> I am a certified TEFL instructor and taught English in Bali, Indonesia.<br><br><strong>Misc:</strong> I am a certified yoga instructor and advanced PADI Scuba diver.</span>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Future</b></p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-							</a>
-						</div>
+
 
 					</div><!-- //ROW -->
 
@@ -336,8 +340,8 @@
 
 						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
 							<h2><b>Video Experience</b> & Why it Matters</h2>
-							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							<p>I have been filming and editing videos from a young age and its always been a passion of mine. While traveling I put together videos that venture to capture some of the culture that I am immersed it. I have also done video work for the companies that run the gambit from yoga clothing to police body cameras.</p>
+							<p>This production and design work includes product promotion videos, customer case studies, motion graphics, and software tutorials. These experiences have enabled me with a unique perspective on what these businesses offer, how it provides value to its customer, and what in that mix is impactful to people who don’t know there story.</p>
 							<div class="flexy" data-appear-top-offset="-200" data-animated="fadeInUp">
 									<div class="itemz">
 										<a href="http://www.bodyworn.com/#bodyworn-home"><img src="images/clients/bodyworn.png" alt="" /></a>
@@ -404,8 +408,8 @@
 							</div>
 							<div class="work_description">
 								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >BrewBuddy</a>
-									<span>Inventory and Tracking app for home brewers</span>
+									<a href="portfolio-post.html" >Clique</a>
+									<span>A new group messaging design.</span>
 								</div>
 							</div>
 						</div>
@@ -498,20 +502,6 @@
 					</div><!-- //work2 -->
 
 					<!-- work3 -->
-					<div class="item">
-						<div class="work_item">
-							<div class="work_img" id="projs">
-								<img src="images/works/brewBuddy.png" alt="" />
-								<a class="zoom" href="images/works/brewBuddy.png" rel="prettyPhoto[portfolio1]" ></a>
-							</div>
-							<div class="work_description">
-								<div class="work_descr_cont">
-									<a href="portfolio-post.html" >Ginger Beast</a>
-									<span>17 March, 2041</span>
-								</div>
-							</div>
-						</div>
-					</div><!-- //work3 -->
 
 					<!-- work4 -->
 					<div class="item">
@@ -528,6 +518,20 @@
 							</div>
 						</div>
 					</div><!-- //work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img" id="projs">
+								<img id="clique" src="images/works/clique.png" alt="" />
+								<a class="zoom" href="images/works/clique.png" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="https://clique-82cee.firebaseapp.com/#/login" >Clique</a>
+									<span>A new group messaging design.</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work3 -->
 
 				</div><!-- //PROJECTS SLIDER -->
 
@@ -578,6 +582,13 @@
 						<h4>(303)918-2271</h4>
 
 					</div>
+
+					<div class="item">
+						<div id="myCircle" class="circle">
+							<img id="myFace" src="images/BEN_FACE.png" alt="" />
+						</div>
+
+					</div>
 					<div class="item">
 						<h3><strong>Email</strong></h3>
 						<div class="circle">
@@ -585,13 +596,6 @@
 						</div>
 						<h4>jbwg312@gmail.com</h4>
 
-					</div>
-					<div class="item">
-						<h3><strong>Address</strong></h3>
-						<div class="circle">
-							<img src="images/placeholder.png" alt="" />
-						</div>
-						<h4>5541 Lemongulch Road <br>Castle Rock, CO 80108</h4>
 					</div>
 
 				</div>
@@ -625,76 +629,16 @@
 			<!-- ROW -->
 			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
 
-				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
-					<h4><b>Misc</b>ellaneaous</h4>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-						</div>
-						<div class="post_item_content_small">
-
-						</div>
-					</div>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-						</div>
-						<div class="post_item_content_small">
-
-						</div>
-					</div>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-						</div>
-						<div class="post_item_content_small">
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
-
-					<ul class="social">
-						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="map_show fa fa-map-marker"></i></a></li>
-					</ul>
-				</div>
-
-				<div class="respond_clear"></div>
-
-				<div class="col-lg-4 col-md-4 padbot30">
-					<h4><b>Contacts</b> Me</h4>
-
-					<!-- CONTACT FORM -->
-					<!-- <div class="span9 contact_form">
-						<div id="note"></div>
-						<div id="fields">
-							<form id="contact-form-face" class="clearfix" action="#">
-								<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
-								<input class="contact_btn" type="submit" value="Send message" />
-							</form>
-						</div> -->
-					</div><!-- //CONTACT FORM -->
-				</div>
-			</div><!-- //ROW -->
 			<div class="row copyright">
 				<div class="col-lg-12 text-center">
 
-				 <p>Crafted with <i class="fa fa-heart"></i>, <a href="http://designscrazed.org/" >Designscrazed</a></p>
+
 				</div>
 
 			</div><!-- //ROW -->
 		</div><!-- //CONTAINER -->
 	</footer><!-- //FOOTER -->
 
-
-	<!-- MAP -->
-	<div id="map">
-		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
-		<iframe src="https://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
-	</div><!-- //MAP -->
 
 </div>
 </body>
