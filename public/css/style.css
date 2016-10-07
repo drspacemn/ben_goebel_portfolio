@@ -852,6 +852,7 @@ ul.project_info li span {color:#979797;}
 #team {
 	padding:75px 0 75px;
 	background: #D0E0EB;
+	background-image: url(../images/pattern.png);
 	background-size:cover;
 	background-attachment:fixed !important;
 }
@@ -2262,4 +2263,20 @@ h2 b {
 #clique {
 	max-width: 320px;
 	max-height: 153px;
+}
+
+
+.projy {
+	height: 18em;
+	margin-bottom: 70px;
+}
+
+.projy label {
+	margin-top: -20px;
+}
+
+.projy img {
+	height: 17em;
+	display: block;
+	margin: 0 auto;
 }

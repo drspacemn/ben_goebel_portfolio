@@ -77,6 +77,8 @@ jQuery(document).ready(function() {
 			return false;
 		});
 	};
+
+
 });
 
 
@@ -86,11 +88,6 @@ jQuery(document).ready(function() {
 		$('.navmenu ul').superfish();
 	}
 });
-
-
-
-
-
 
 
 
@@ -292,4 +289,83 @@ jQuery(document).ready(function() {
 	jQuery('.map_hide').click(function(){
 		jQuery('#map').removeClass('showed');
 	});
+	$('#hypedP').hide();
+	$('#hyped').click(function(){
+		window.location.replace("https://clique-82cee.firebaseapp.com/#/login");
+	});
+	
+	$('#cliquedP').hide();
+	$('#brewedP').hide();
+	$('#picedP').hide();
+	$('#teaedP').hide();
+	$('#reddedP').hide();
+
+    $("#hyped").hover(
+        function()
+        {
+			$('#hypedP').slideToggle(300);
+            $(this).attr("src", "images/gifs/hyperbot.gif");
+        },
+        function()
+        {
+			$('#hypedP').slideToggle(300);
+            $(this).attr("src", "images/gifs/hyperbot.png");
+        });
+	 $("#cliqued").hover(
+        function()
+        {
+			$('#cliquedP').slideToggle(300);
+            $(this).attr("src", "images/gifs/clique.gif");
+        },
+        function()
+        {
+			$('#cliquedP').slideToggle(300);
+            $(this).attr("src", "images/gifs/clique.png");
+        });
+	$("#brewed").hover(
+        function()
+        {
+			$('#brewedP').slideToggle(300);			
+            $(this).attr("src", "images/gifs/brew_buddy.gif");
+        },
+        function()
+        {
+			$('#brewedP').slideToggle(300);	
+            $(this).attr("src", "images/gifs/brew_buddy.png");
+        });
+	$("#piced").hover(
+        function()
+        {
+			$('#picedP').slideToggle(300);			
+            $(this).attr("src", "images/gifs/picedu.gif");
+        },
+        function()
+        {
+			$('#picedP').slideToggle(300);
+            $(this).attr("src", "images/gifs/picedu.png");
+        });
+	$("#teaed").hover(
+        function()
+        {
+			$('#teaedP').slideToggle(300);			
+            $(this).attr("src", "images/gifs/mean_tea.gif");
+        },
+        function()
+        {
+			$('#teaedP').slideToggle(300);	
+            $(this).attr("src", "images/gifs/mean_tea.png");
+        });
+	$("#redded").hover(
+        function()
+        {
+			$('#reddedP').slideToggle(300)			
+            $(this).attr("src", "images/gifs/reddit.gif");
+        },
+        function()
+        {
+			$('#reddedP').slideToggle(300)	
+            $(this).attr("src", "images/gifs/reddit.png");
+        });
+	
+
 });
