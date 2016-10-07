@@ -2279,4 +2279,5 @@ h2 b {
 	height: 17em;
 	display: block;
 	margin: 0 auto;
+	box-shadow:5px 5px 5px rgba(0,0,0,0.3);
 }
